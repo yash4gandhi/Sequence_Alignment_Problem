@@ -1,0 +1,36 @@
+Insights and Observations:
+
+
+.Comments on why the efficient and basic versions have different memory and time plots.
+
+Let length (String1) = m and length (String2) = n.
+
+Memory comparison: 
+The basic version (only dynamic programming) takes much more memory as compared to the memory efficient solution (Divide and Conquer + Dynamic Programming). 
+
+•Observation for memory improvement:
+The basic dynamic programming solution uses m x n 2d grid to calculate the optimal similarity score of the sequence alignment.
+However, optimal alignment score can be computed by using only two columns i.e., the current column and the column just before the current one. 
+
+•Approach for memory efficient solution:
+Divide and Conquer: We split the first string into two halves and for each we half look for an optimal point which has the least score of sequence alignment with the other entire input string by using the space efficient sequence alignment algorithm recursively. The space efficient sequence alignment algorithm uses only two columns every time to calculate the value of the optimal alignment score. We keep copying the current column values to the previous column and update the current column with the new values. 
+We concatenate the two alignments obtained for every optimal point recursively and in turn find the optimal score for the original two input strings as well as the final alignment. 
+
+The memory efficient version is implemented in O(m+n) space. We only use one recursive call at a time, the total space usage is O (m + n) as compared to O(mn) space complexity in basic version.
+
+Graph Analysis:
+It can be observed from the Memory vs Problem Size graph:
+1.	The memory for both basic and memory efficient implementations has an increasing trend for increasing problem size. 
+2.	The memory efficient implementation uses far less memory than the basic implementation.
+3.	The line graph for memory efficient version increases very slowly with increasing problem size as compared to basic version. 
+
+
+Time comparison:
+Let length (String1) = m and length (String2) = n.
+Both the basic and memory efficient versions are implemented in O(mn) as we loop through each character of both strings.
+
+Graph Analysis:
+It can be observed from the Time vs Problem Size:
+1.	The time for both basic and memory efficient implementations has an increasing trend for increasing problem size. 
+2.	The memory efficient implementation takes more time than the basic implementation with increasing problem size. 
+
