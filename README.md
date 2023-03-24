@@ -26,6 +26,7 @@ p—there is no mismatch cost to line up a letter with another copy of
 itself—although this will not be necessary in anything that follows.
 3. The cost of M is the sum of its gap and mismatch costs, and we seek an alignment
 of minimum cost.
+
 B. Input string Generator:
 The input to the program would be a text file, input.txt containing the following
 information:
@@ -35,6 +36,7 @@ previous string to be added to the cumulative string
 3. Second base string
 4. Next k lines would consist of where the base string to be added to the
 cumulative string
+
 This information would help generate 2 strings from the original 2 base strings.
 This file could be used as an input to your program and your program could use
 the base strings and the rules to generate the actual strings. Also note that the
@@ -69,6 +71,7 @@ A 0 110 48 94
 C 110 0 118 48
 G 48 118 0 110
 T 94 48 110 0
+
 D. Programming/Scripting Languages:
 Following are the list of languages which could be used:
 1. C
@@ -76,21 +79,25 @@ Following are the list of languages which could be used:
 3. Java
 4. Python
 5. Python3
+
 E. Bounds:
 Bounds on the length of the base strings and the values of m and n, along with the
 zip file will be released on 17 November 2021, i.e. 3 weeks before the due date.
+
 III. Goals
-Following are the goals to achieve for your project
-A. Your program should take input:
+Following are the goals to achieve for the project
+A. The program should take input:
 1. 2 strings that need to be aligned, should be generated from the string
 generator mentioned above.
 2. Gap penalty (δe).
 3. Mismatch penalty (αpq).
+
 B. Your solution should output output.txt file containing the following information at
 the respective lines:
 1. The first 50 elements and the last 50 elements of the actual alignment.
 2. The time it took to complete the entire solution.
 3. Memory required.
+
 C. Implement the memory efficient version of this solution and repeat the tests in
 Part B.
 D. Plot the results of Part A and Part B:
