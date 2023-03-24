@@ -1,9 +1,9 @@
 # Sequence_Alignment_Problem
 
-##Project Description
+**Project Description:**
 
-###Implement the basic Dynamic Programming solution to the Sequence Alignment problem. Run
-the test set provided and show your results.
+**Implement the basic Dynamic Programming solution to the Sequence Alignment problem. Run
+the test set provided and show your results.**
 
 A. Algorithm Description:
 Suppose we are given two strings X and Y, where X consists of the sequence of symbols
