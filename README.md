@@ -1,8 +1,10 @@
 # Sequence_Alignment_Problem
-Two approaches to solve the sequence alignment problem
-Project Description
-Implement the basic Dynamic Programming solution to the Sequence Alignment problem. Run
+
+##Project Description
+
+###Implement the basic Dynamic Programming solution to the Sequence Alignment problem. Run
 the test set provided and show your results.
+
 A. Algorithm Description:
 Suppose we are given two strings X and Y, where X consists of the sequence of symbols
 x1, x2 . . . xm and Y consists of the sequence of symbols y1, y2 . . . yn. Consider the sets {1,
