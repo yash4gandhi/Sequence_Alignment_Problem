@@ -44,33 +44,10 @@ numbers j and k corresponds to the first and the second string respectively. Mak
 sure you validate the length of the first and the second string to be
 2j*str1.length and 2k*str2.length. Please note that the base strings need
 not have to be of equal length and similarly, j need not be equal to k.
-ACTG
-3
-6
-1
-TACG
-1
-2
-9
-Using the above numbers, the generated strings would be
-ACACTGACTACTGACTGGTGACTACTGACTGG and
-TATTATACGCTATTATACGCGACGCGGACGCG
-Following is the step by step process on how the above strings are generated.
-ACTG
-ACTGACTG
-ACTGACTACTGACTGG
-ACACTGACTACTGACTGGTGACTACTGACTGG
-TACG
-TATACGCG
-TATTATACGCGACGCG
-TATTATACGCTATTATACGCGACGCGGACGCG
-C. Values for Delta and Alphas
-Values for α’s are as follows. δe is equal to 30.
-A C G T
-A 0 110 48 94
-C 110 0 118 48
-G 48 118 0 110
-T 94 48 110 0
+
+![image](https://user-images.githubusercontent.com/51473894/227400451-a4cdb919-f92f-4f2d-8aca-bbbe4ba4efae.png)
+
+
 
 D. Programming/Scripting Languages:
 Following are the list of languages which could be used:
